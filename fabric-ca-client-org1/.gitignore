@@ -13,4 +13,6 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-/bin/fabric-ca-client
+bin/fabric-ca-client
+ca-folder
+root-cert

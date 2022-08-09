@@ -22,7 +22,6 @@ vendor/
 .settings
 
 # installed platform-specific binaries
-bin/fabric-ca-client
 /config
 .DS_Store
 .project
@@ -33,3 +32,5 @@ bin/fabric-ca-client
 .#*
 # Vim file artifacts
 .*.sw*
+
+#
