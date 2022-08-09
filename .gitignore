@@ -22,7 +22,7 @@ vendor/
 .settings
 
 # installed platform-specific binaries
-bin
+bin/fabric-ca-client
 /config
 .DS_Store
 .project
