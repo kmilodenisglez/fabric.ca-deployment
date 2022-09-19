@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 function createOrg1() {
   export PATH="${PWD}"/bin:"$PATH"

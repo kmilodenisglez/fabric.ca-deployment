@@ -320,6 +320,7 @@ csr:
    hosts:
      - org1.example.com
      - localhost
+     - 127.0.0.1
    ca:
       expiry: 131400h
       pathlength: 1
