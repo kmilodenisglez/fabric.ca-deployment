@@ -50,7 +50,7 @@ function createOrg1() {
 
   echo "Registering user"
   set -x
-  fabric-ca-client register --caname ca-org1 --id.name user1 --id.secret user1pw --id.type client --tls.certfiles "${PWD}/root-cert/ca-cert.pem"
+  fabric-ca-client register --caname ca-org1 --id.name user1 --id.secret user1pw --id.type client --tls.certfiles "${PWD}/root-cert/ca-cert.pem"   --id.affiliation org1.department1 --id.attrs '"abac.manufacturer=true"' --id.attrs '"abac.administrator=true"'
   { set +x; } 2>/dev/null
 
   echo "Registering the org admin"
